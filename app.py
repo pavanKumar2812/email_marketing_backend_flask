@@ -5,7 +5,7 @@ import datetime
 
 app = Flask(__name__)
 
-MONGO_URI = "mongodb+srv://pavan-kumar-2812:Venkat123@email-marketing-db.jihmhxe.mongodb.net/?retryWrites=true&w=majority&appName=email-marketing-db"
+MONGO_URI = "mongodb+srv://pavan-kumar-2812:@email-marketing-db.jihmhxe.mongodb.net/?retryWrites=true&w=majority&appName=email-marketing-db"
 client = MongoClient(MONGO_URI)
 db = client.email_marketing_db
 
